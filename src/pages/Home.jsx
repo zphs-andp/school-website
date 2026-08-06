@@ -127,7 +127,7 @@ export default function Home() {
   return (
     <div className="home">
       {/* ── Hero ── */}
-      <section className="hero" style={{ background: s.bg }}>
+      <section className="hero">
         <div className="hero-overlay" style={{ background: `radial-gradient(circle at 80% 50%, ${s.accent}, transparent 60%)` }} />
         <div className="hero-shapes">
           <div className="shape s1" /><div className="shape s2" /><div className="shape s3" />

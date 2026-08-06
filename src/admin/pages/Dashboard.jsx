@@ -72,7 +72,7 @@ export default function Dashboard() {
       <div className="page-header">
         <div>
           <h1 className="page-title">
-            {greeting()}, {user?.displayName?.split(' ')[0] || 'Admin'} 👋
+            {greeting()}, {user?.displayName?.split(' ')[0] || 'Admin'}
           </h1>
           <p className="page-sub">Here's an overview of your school website content.</p>
         </div>

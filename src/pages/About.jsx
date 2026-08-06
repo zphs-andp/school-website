@@ -80,7 +80,7 @@ export default function About() {
             </motion.div>
             <motion.div initial={{ opacity:0, x:40 }} whileInView={{ opacity:1, x:0 }} viewport={{ once:true }} transition={{ duration:0.6 }}>
               <img
-                src={getImageUrl(schoolData.image || "images/gallery/school-building.jpeg")}
+                src={getImageUrl(schoolData.image || "images/school3.jpg")}
                 alt="School building"
                 className="about-img"
               />

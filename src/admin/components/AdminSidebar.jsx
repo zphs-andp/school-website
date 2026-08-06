@@ -54,13 +54,6 @@ export default function AdminSidebar({ open, onToggle }) {
           </NavLink>
         ))}
       </nav>
-
-      {/* Footer hint */}
-      {open && (
-        <div className="sidebar-footer">
-          <span>Firebase Ready</span>
-        </div>
-      )}
     </aside>
   );
 }
