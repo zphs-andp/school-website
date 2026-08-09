@@ -13,7 +13,7 @@
   color: #fff;
 
   /* ADD THESE LINES */
-  background-image: url('./images/school1.jpg') !important; /* Change to your path */
+  background-image: url('/school-website/images/school1.jpg') !important; /* Change to your path */
   background-size: contain !important;
   background-position: center 0% !important;
   background-repeat: no-repeat !important;
